@@ -3,35 +3,74 @@ html, body {
 }
 
 body {
-  background: #21262B !important;
+  background: #f5f5f9 !important;
+}
+
+.main-card {
+  background: #fff;
+  padding: 15px;
+  border-radius: 4px;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
 }
 
 .container {
-  background: #282D35;
   height: 100%;
   padding-top: 50px;
   font-family: 'Ubuntu', sans-serif;
-
 }
 
 .row {
   font-weight: 300;
   -webkit-font-smoothing: antialiased;
-  font-size: 16px;
-  color: #ccc;
+  font-size: 14px;
+  color: #555;
   cursor: default;
+  padding-bottom: 8px;
 }
 
 .col:hover {
   color: #1cca74;
 }
 
+i {
+  transition: all 0.1s ease;
+}
+
+.col:hover > i {
+  transform: translateX(-3px);
+}
+
 h1 {
-  color: #eee !important;
+  color: #222 !important;
   text-align: center;
   padding: 15px;
+  font-weight: 700 !important;
+  -webkit-font-smoothing: antialiased;
 }
 
 p {
-  color: #ccc;
+  color: #333;
+  -webkit-font-smoothing: antialiased;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+.post-text{
+  text-align: center;
+  margin-top: 15px;
+
+}
+
+.post-text > a {
+  color: #aaa;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  text-decoration: none;
+}
+
+.post-text:hover > a {
+  color: #0275d8;
+  text-decoration: none;
 }
