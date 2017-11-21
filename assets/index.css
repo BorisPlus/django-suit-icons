@@ -29,11 +29,15 @@ body {
 }
 
 .col:hover {
-  color: #1cca74;
+  color: #0275d8;
+}
+
+.blue {
+  color: #0275d8;
 }
 
 i {
-  transition: all 0.1s ease;
+  transition: all 0.2s ease;
 }
 
 .col:hover > i {
